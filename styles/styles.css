@@ -1,0 +1,218 @@
+header {
+    background-color: #EFFFF7;
+    width: 100%;
+    padding: 2% 0 3% 0;
+    border-radius: 7px 7px 0 0;
+    text-align: center;
+
+}
+
+header .header_title {
+    font-family: Gotham Pro Regular;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #01183C;
+}
+
+header .close {}
+
+.close {
+    position: absolute;
+    right: 0%;
+    top: 1%;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.close:before,
+.close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 70%;
+    width: 1px;
+    background-color: #333;
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}
+
+.win {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px #999999 solid;
+    border-radius: 7px;
+    width: 50%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.win .button-container {
+    display: flex;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+    font-family: Gotham Pro Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 48px;
+    /* or 185% */
+    color: #01183C;
+    padding: 2% 20%;
+    box-sizing: border-box;
+}
+
+.win .TextInter.active {
+    margin: 0;
+    opacity: 100%;
+    color: #026977;
+    font-family: Gotham Pro;
+    cursor: pointer;
+}
+
+.win .TextInter {
+    margin: 0;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.win .TextRegistration {
+    margin: 0;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.TextRegistration.active {
+    margin: 0;
+    opacity: 100%;
+    color: #026977;
+    font-family: Gotham Pro;
+    cursor: pointer;
+}
+
+.win .main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 100%;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+.email-container_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #01183C;
+    margin-bottom: 1%;
+}
+
+.input-container {
+    margin-top: 3%;
+}
+.input-container_name{
+    margin: 0;
+}
+.password-container_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #01183C;
+    margin-bottom: 1%;
+}
+
+.win .email {
+    text-align: left;
+    border-radius: 10px;
+    padding: 3% 6%;
+    border: 1px solid #999999;
+    outline: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.win .password {
+    text-align: left;
+    padding: 3% 6%;
+    border-radius: 10px;
+    border: 1px solid #999999;
+    outline: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.repeat-password{
+    margin-top: 3%;
+}
+.win .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.buttonForgetPassword-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 1% 10%;
+    box-sizing: border-box;
+}
+
+.win .ForgetPassword {
+    color: #01183C;
+    border: 0;
+    border-bottom: 1px solid #01183C;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.buttonSignIn-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.win .ButtonInter {
+    display: flex;
+    padding: 2% 9%;
+    background-color: #026977;
+    text-decoration-color: white;
+    border-radius: 7px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    font-family: Gotham pro;
+}
+.ButtonInter:active{
+    background-color: #007585;
+}
